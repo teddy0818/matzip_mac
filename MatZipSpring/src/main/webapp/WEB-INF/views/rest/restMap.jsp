@@ -11,14 +11,15 @@
 <div id="sectionContainerCenter">
 	<div id="mapContainer" style="width:100%; height:100%;"></div>
 	
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0d57853264d6ddf4b555406837fcb60f"></script>
+	<!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0d57853264d6ddf4b555406837fcb60f"></script> -->
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=511c45bf18e47387a8bc808594cfc94b"></script>
 	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 	<script>		
 	
 		var markerList = [] //마커 리스트
 		
 		const options = { //지도를 생성할 때 필요한 기본 옵션
-			center: new kakao.maps.LatLng(35.958437, 128.486084), //지도의 중심좌표.
+			center: new kakao.maps.LatLng(35.888437, 128.587084), //지도의 중심좌표.
 			level: 5 //지도의 레벨(확대, 축소 정도)
 		}
 	

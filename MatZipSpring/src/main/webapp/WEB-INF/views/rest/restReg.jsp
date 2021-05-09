@@ -23,7 +23,7 @@
 			<div><input type="submit" value="등록"></div>
 		</form>
 	</div>
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0d57853264d6ddf4b555406837fcb60f&libraries=services"></script>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=511c45bf18e47387a8bc808594cfc94b&libraries=services"></script>
 	<script>
 		function chkFrm() {
 			if(frm.nm.value.length == 0) {
